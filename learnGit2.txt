@@ -6,3 +6,8 @@ Cara untuk membatalkan perubahan yang ada di staging area, dan mengembalikannya 
 - git reset --soft HEAD~1 (Membatalkan commit terakhir, perubahan tetap di staging area.)
 - git reset --hard HEAD~1 (Membatalkan commit terakhir, perubahan hilang dari working directory.)
 - git revert <commit_id>: Membuat commit baru yang membatalkan commit tertentu.
+
+- git reset --HARD ee5ea54
+Penjelasan :
+Perintah ini akan mengatur ulang HEAD ke commit dengan ID ee5ea54 dan menghapus semua perubahan yang ada di working directory dan staging area (belum di-commit). Dengan kata lain, repository akan kembali ke keadaan yang persis seperti commit ee5ea54.
+
