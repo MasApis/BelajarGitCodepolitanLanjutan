@@ -13,3 +13,7 @@ Perintah ini akan mengatur ulang HEAD ke commit dengan ID ee5ea54 dan menghapus 
 
 Branch dan merge
 - git checkout -b <nama branch baru> (Ini berfungsi untuk membuat branch baru serta langsung berpindah ke branch baru kita buat)
+
+Merevisi commit dengan git revert
+Fungsi git revert adalah untuk membatalkan perubahan dari commit tertentu dengan membuat commit baru yang membalikkan perubahan tersebut, tanpa menghapus riwayat commit aslinya.
+- git revert <commit-hash> 
