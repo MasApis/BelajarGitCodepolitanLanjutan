@@ -11,3 +11,5 @@ Cara untuk membatalkan perubahan yang ada di staging area, dan mengembalikannya 
 Penjelasan :
 Perintah ini akan mengatur ulang HEAD ke commit dengan ID ee5ea54 dan menghapus semua perubahan yang ada di working directory dan staging area (belum di-commit). Dengan kata lain, repository akan kembali ke keadaan yang persis seperti commit ee5ea54.
 
+Branch dan merge
+- git checkout -b <nama branch baru> (Ini berfungsi untuk membuat branch baru serta langsung berpindah ke branch baru kita buat)
