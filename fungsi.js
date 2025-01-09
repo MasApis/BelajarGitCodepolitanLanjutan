@@ -1,4 +1,5 @@
 // perkalian
+console.log("ARITMATIKA")
 const penjumlahan = (angka1, angka2) => angka1 + angka2;
 const pengurangan = (angka1, angka2) => angka1 - angka2;
 const perkalian = (angka1, angka2) => angka1 * angka2;
