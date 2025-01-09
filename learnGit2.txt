@@ -1,6 +1,6 @@
 Cara untuk membatalkan perubahan yang ada di staging area, dan mengembalikannya ke working directory ada dua cara yaitu:
 - git restore -S <nama file> (mengembalikkan perubahan ke working directory dengan menuliskan nama file nya)
-- git restory -S . (mengembalikkan semua perubahan ke working)
+- git restore -S . (mengembalikkan semua perubahan ke working)
 - git reset
 - git reset --mixed HEAD~1 (Membatalkan commit terakhir, perubahan tetap di working directory tapi tidak di staging area.)
 - git reset --soft HEAD~1 (Membatalkan commit terakhir, perubahan tetap di staging area.)
