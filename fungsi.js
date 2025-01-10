@@ -19,3 +19,8 @@ console.log("Status perkawinan : belum kawin");
 console.log("Nomor handphone : 083146949357");
 console.log("Email : abdulhafidz3105@gmail.com");
 console.log("Alamat : Kp. Sidomulyo km 18 kijang");
+
+// Konversi suhu
+console.log("KONVERSI SUHU CELCIUS TO FAHRENHEIT")
+const celciusToFahrenheit = (suhu) => (suhu * 9/5) + 32;
+console.log("25 derajat celcius di koversikan ke fahrenheit hasilnya : " + celciusToFahrenheit(25) + " fahrenheit");
