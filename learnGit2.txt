@@ -16,4 +16,6 @@ Branch dan merge
 
 Merevisi commit dengan git revert
 Fungsi git revert adalah untuk membatalkan perubahan dari commit tertentu dengan membuat commit baru yang membalikkan perubahan tersebut, tanpa menghapus riwayat commit aslinya.
-- git revert <commit-hash> 
+- git revert <commit-hash>
+
+- git push origin feature/KonversiCelciusToFahrenheit (berfungsi untuk mengupload branch lokal kita ke github)
