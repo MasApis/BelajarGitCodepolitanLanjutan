@@ -19,3 +19,12 @@ Fungsi git revert adalah untuk membatalkan perubahan dari commit tertentu dengan
 - git revert <commit-hash>
 
 - git push origin feature/KonversiCelciusToFahrenheit (berfungsi untuk mengupload branch lokal kita ke github)
+
+Mengembalikkan Commit setelah push
+1. Lakukan reset ke commit sebelumnya:
+- git reset --hard <commit_hash>
+
+2. Force push ke remote
+- git push origin <branch_name> --force
+
+Catatan: Gunakan --force dengan hati-hati, terutama jika bekerja di tim, karena ini dapat memengaruhi branch orang lain.
